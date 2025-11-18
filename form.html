@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form in HTML</title>
+</head>
+<body>
+    <form>
+        Enter your name:
+        <input type="text"name="username"> <br>
+        <br>
+    </form>
+    <form>
+        First Name: <input type="text" name="Firstname"> <br>
+        <br>
+        LastName: <input type="text" name="lastname"> <br>
+        <br>
+   </form>
+   <form>
+       Enter your Address:<br>
+       <textarea rows="2"cols="20"></textarea> <br>
+   <form>
+    <label>First Name:</label> <br>
+       <input type="text" name="firstname"> <br><br>
+       <label>Last Name:</label> 
+       <input type="text" name="lastname"> <br><br>
+       <label>Password:</label>
+       <input type="password" name="password"> <br>
+       <br>
+       <input type="Submit">
+       <input type="Reset">
+   </form>
+   <form action="https://www.youtube.com/comments.php">
+    <p> What did you think of this gig?</p>
+ <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+ </p>
+   </form>
+   <form action="http://www.youtube.com/profile.php">
+ <p>Please select your favorite genre:
+ <br />
+ <input type="radio" name="genre" value="rock" 
+checked="checked" /> Rock
+ <input type="radio" name="genre" value="pop" /> 
+Pop
+ <input type="radio" name="genre" value="jazz" />
+ jazz
+ </p>
+   </form>
+    <form action="http://www.facebok.com/profile.php">
+ <p>Do you play any of the following instruments? 
+(You can select more than one option by holding 
+down control on a PC or command key on a Mac 
+while selecting different options.)</p>
+<select name="instruments" size="3" multiple="multiple">
+    <option value="guitar" selected="selected">
+     guitar</option>
+     <option value="drums">Drums</option>
+     <option value="keyboard"
+         selected="selected">keyboard</option>
+     <option value="bass">bass</option>
+</select>
+</body>
+</html>
